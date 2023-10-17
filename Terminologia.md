@@ -1,4 +1,3 @@
-
 ## DHCP o Dynamic Host Configuration Protocol
 
 Protocol que proporciona dinàmicament (automàticament) una adreça IP i la configuració necessària per a que aquesta funcione.
@@ -10,6 +9,10 @@ El sistema pel qual una URL (www.google.com) es tradueix a una adreça IP (8.8.8
 ## IP Address (Adreça IP)
 
 Direcció numèrica assignada a cada dispositiu que participa en una xarxa. És l'equivalent a una adreça d'una casa.
+
+## Model OSI
+
+Standard basat [[Model OSI - General|en capes]] creat per la Organització Internacional per la Standarització (OSI), que permet communicar-se seguint un standard a diferents dispositius i sistemes de comunicació, sense la necessitat d'entendre els protocols.
 
 ## Network Interface Card (Targeta de xarxa)
 
@@ -25,7 +28,7 @@ Dos (o més) dispositius han d'entendre's entre ells, de la mateixa que dos o m�
 
 ## Ping
 
-Eina que ens serveix per comprovar si tenim connectivitat a un lloc  o xarxa remota, o una pàgina web.
+Eina que ens serveix per comprovar si tenim connectivitat a un lloc o xarxa remota, o una pàgina web.
 
 ```
 ping <IP/URL>
@@ -47,6 +50,7 @@ Xarxa d'un negoci on treballen entre 1 i 10 treballadors.
 ### PAN (Personal Area Network)
 
 Xarxes petites utilitzades per ús personal per compartir informació d'un dispositiu a altre (de mòbil a portàtil, de smart watch a mòbil...).
+
 ### LAN (Local Area Network)
 
 És una xarxa d'una zona relativament xicoteta, com una habitació, casa, edifici o grup d'edificis. (Una xarxa de casa o d'una oficina).
@@ -64,6 +68,7 @@ Una xarxa que abasta molta distància, entre multiples ciutats o, fins i tot, pa
 La topologia d'una xarxa és l'estructura o disseny del cablejat i dispositius d'una xarxa.
 
 ![[topologia.png]]
+
 ## Tracer
 
 Eina que serveix per vore el traçat que fan els paquets des del nostre dispositiu fins a l'adreça web desitjada. En el resultat vorem cada "salt" que fa, i que indica un dispositiu.
