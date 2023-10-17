@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "81d168d619733a60",
+        "id": "cb201a6f1f672146",
         "type": "tabs",
         "children": [
           {
-            "id": "a86517f4f70ae314",
+            "id": "3cb5f72fbbbe7c80",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Model OSI/Model OSI - General.md",
+                "file": "Terminologia.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,17 +22,15 @@
             }
           },
           {
-            "id": "f2b4ecdde06a4e60",
+            "id": "6262a9c8b059a660",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Model OSI/Model OSI - Capes.md",
+                "file": "Terminologia.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
         ],
@@ -102,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Model OSI/Model OSI - Capes.md",
+                "file": "Terminologia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Model OSI/Model OSI - Capes.md",
+                "file": "Terminologia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Model OSI/Model OSI - Capes.md"
+                "file": "Terminologia.md"
               }
             }
           }
@@ -163,12 +161,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f2b4ecdde06a4e60",
+  "active": "6262a9c8b059a660",
   "lastOpenFiles": [
-    "Model OSI/Model OSI - General.md",
-    "Terminologia.md",
-    "Model OSI/Model OSI - Capes.md",
     "Model.md",
+    "Model_OSI_-_Capes/Comunicació_entre_dispositius.md",
+    "Terminologia.md",
+    "Model OSI/Model OSI - General.md",
+    "Model OSI/Model OSI - Capes.md",
+    "Model_OSI_-_Capes",
+    "Model OSI/Encapsulació.png",
     "Model OSI",
     "Imatges/model_osi.png",
     "Pasted image 20231016235231.png",

@@ -1,3 +1,8 @@
+
+## Desencapsulació
+
+Procés invers de la [[#Encapsulació]].
+
 ## DHCP o Dynamic Host Configuration Protocol
 
 Protocol que proporciona dinàmicament (automàticament) una adreça IP i la configuració necessària per a que aquesta funcione.
@@ -6,13 +11,17 @@ Protocol que proporciona dinàmicament (automàticament) una adreça IP i la con
 
 El sistema pel qual una URL (www.google.com) es tradueix a una adreça IP (8.8.8.8) que els dispositius encarregats de les connexions poden entendre i, pel tant, enrutar la informació a través d'internet.
 
+## Encapsulació
+
+El procés en el qual a la informació se li van afegint headers de cada capa del model OSI, contenint meta-informació sobre aquestes. [[Model OSI - General#Comunicació entre dispositius|Més informació]]
+
 ## IP Address (Adreça IP)
 
 Direcció numèrica assignada a cada dispositiu que participa en una xarxa. És l'equivalent a una adreça d'una casa.
 
 ## Model OSI
 
-Standard basat [[Model OSI - General|en capes]] creat per la Organització Internacional per la Standarització (OSI), que permet communicar-se seguint un standard a diferents dispositius i sistemes de comunicació, sense la necessitat d'entendre els protocols.
+Standard basat [[Model OSI - General|en capes]] creat per la Organització Internacional per la Estandardització (OSI), que permet communicar-se seguint un standard a diferents dispositius i sistemes de comunicació, sense la necessitat d'entendre els protocols.
 
 ## Network Interface Card (Targeta de xarxa)
 
