@@ -24,7 +24,19 @@ Gestiona les comunicacions i el seu control entre hosts i sistemes per assegurar
 
 TCP i UDP
 
-## Capa 3: Network layer
+## Capa 3: Network (Xarxa) layer
 
+Dedicada a l'enviament de paquets d'informació, mitjançant routers, d'un sistema a un altre. Switches de nivell 3 també tenen aquesta capacitat. Poden utilitzar el **OSPF** (Open Shortest Path First) o **BGP** (Border Gateway Protocol)
 
+Routers, Switches.
+
+## Capa 2: Data-link
+
+Permet la transferència d'informació entre els nodes de les capes 3 (Network) i 1 (Físic). Defineix com la informació és formatada i com l'accés a la xarxa és controlada.
+
+Ethernet.
+
+## Capa 1: Física
+
+Defineix com la informació és transmesa (binària). Defineix les especificacions elèctriques, mecàniques, procedural i funcional per controlar els dispositius d'aquesta capa. Tot i transmetre tots dos informació, els cables de coure i fibra, per exemple, tenen diferents especificacions.
 
