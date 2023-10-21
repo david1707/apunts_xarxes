@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cb201a6f1f672146",
+        "id": "cf77cfdc82edb7bf",
         "type": "tabs",
         "children": [
           {
-            "id": "3cb5f72fbbbe7c80",
+            "id": "4299402c11f760ed",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminologia.md",
+                "file": "Linux/Arxius i Directoris.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,19 +22,33 @@
             }
           },
           {
-            "id": "6262a9c8b059a660",
+            "id": "8227ef8f2baba1f0",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Comandos de la terminal de Linux.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "3a53bc530679ad9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminologia.md",
+                "file": "Linux/Sistema d'arxius de Linux.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -63,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "LS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminologia.md",
+                "file": "Linux/Sistema d'arxius de Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminologia.md",
+                "file": "Linux/Sistema d'arxius de Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminologia.md"
+                "file": "Linux/Sistema d'arxius de Linux.md"
               }
             }
           }
@@ -161,15 +175,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6262a9c8b059a660",
+  "active": "79ba5e05e412558e",
   "lastOpenFiles": [
-    "Model.md",
-    "Model_OSI_-_Capes/Comunicació_entre_dispositius.md",
-    "Terminologia.md",
+    "Linux/Arxius i Directoris.md",
+    "Linux/Comandos de la terminal de Linux.md",
+    "Linux/Sistema d'arxius de Linux.md",
+    "Imatges/FHS_Linux.png",
+    "Untitled.md",
+    "Xarxes",
+    "Xarxes/Terminologia.md",
     "Model OSI/Model OSI - General.md",
     "Model OSI/Model OSI - Capes.md",
+    "Imatges/Encapsulació.png",
+    "Linux",
+    "Model.md",
+    "Model_OSI_-_Capes/Comunicació_entre_dispositius.md",
     "Model_OSI_-_Capes",
-    "Model OSI/Encapsulació.png",
     "Model OSI",
     "Imatges/model_osi.png",
     "Pasted image 20231016235231.png",

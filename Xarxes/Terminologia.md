@@ -1,4 +1,8 @@
 
+## Binari
+
+Tot ordinador funciona amb un sistema d'interruptor que poden estar encesos (1) o apagats (0).
+
 ## Desencapsulació
 
 Procés invers de la [[#Encapsulació]].
