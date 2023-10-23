@@ -26,7 +26,29 @@ Fer un print d'un arxiu amb numeració per línia
 Concatenar un o més arxius
 ``cat <ARXIU_1> <ARXIU_2> <ARXIU_N> > <NOU_ARXIU>``
 
+Vore un arxiu amb *less* (Permet navegació)
+``less <ARXIU>``
 
+Vore les últimes 10 línies d'un arxiu
+``tail <ARXIU>``
+
+Vore les últimes 3 línies d'un arxiu
+``tail -n 3 <ARXIU>``
+
+Vore les noves línies d'un arxiu (en viu, mentres s'edita)
+``tail -f <ARXIU>``
+
+Vore les primeres 10 línies d'un arxiu
+``head <ARXIU>``
+
+Vore les primeres 4 línies d'un arxiu
+``head -n 4 <ARXIU>``
+
+Monitorar canvis en un directori
+``watch ls``
+
+Monitorar canvis en un directori cada 3 segons
+``watch -n 3 ls``
 
 ## Directoris
 

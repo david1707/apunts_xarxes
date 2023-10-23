@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "cf77cfdc82edb7bf",
+        "id": "05d1345816b1b6e0",
         "type": "tabs",
         "children": [
           {
-            "id": "4299402c11f760ed",
+            "id": "037ead5fd0b36f33",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Linux/Arxius i Directoris.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
         ]
@@ -67,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -149,19 +146,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bb9e91af776c3f74",
+  "active": "037ead5fd0b36f33",
   "lastOpenFiles": [
+    "Xarxes/Terminologia.md",
+    "Xarxes",
+    "Linux/Sistema d'arxius de Linux.md",
     "Linux/Comandos de la terminal de Linux.md",
     "Linux/Arxius i Directoris.md",
-    "Linux/Sistema d'arxius de Linux.md",
+    "Linux",
     "Imatges/FHS_Linux.png",
+    "Imatges/Encapsulació.png",
+    "Terminologia.md",
+    "Model OSI/Encapsulació.png",
     "Untitled.md",
-    "Xarxes",
-    "Xarxes/Terminologia.md",
     "Model OSI/Model OSI - General.md",
     "Model OSI/Model OSI - Capes.md",
-    "Imatges/Encapsulació.png",
-    "Linux",
     "Model.md",
     "Model_OSI_-_Capes/Comunicació_entre_dispositius.md",
     "Model_OSI_-_Capes",
