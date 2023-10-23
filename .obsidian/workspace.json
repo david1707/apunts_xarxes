@@ -20,35 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "8227ef8f2baba1f0",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Comandos de la terminal de Linux.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "3a53bc530679ad9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Sistema d'arxius de Linux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -77,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "LS",
+                "query": "ld",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +67,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -114,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Sistema d'arxius de Linux.md",
+                "file": "Linux/Arxius i Directoris.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Sistema d'arxius de Linux.md",
+                "file": "Linux/Arxius i Directoris.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Sistema d'arxius de Linux.md"
+                "file": "Linux/Arxius i Directoris.md"
               }
             }
           }
@@ -175,10 +149,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "79ba5e05e412558e",
+  "active": "bb9e91af776c3f74",
   "lastOpenFiles": [
-    "Linux/Arxius i Directoris.md",
     "Linux/Comandos de la terminal de Linux.md",
+    "Linux/Arxius i Directoris.md",
     "Linux/Sistema d'arxius de Linux.md",
     "Imatges/FHS_Linux.png",
     "Untitled.md",

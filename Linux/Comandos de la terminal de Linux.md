@@ -78,6 +78,20 @@ type rm = és un arxiu
 type cd = és un comando o shell builtin
 ```
 
+## Datetime
+
+Vore el calendari d'aquest mes
+``cal``
+
+Vore el calendari d'un any
+``cal <ANY>``
+
+Vore el calendari d'un mes en particular
+``cal <MES> <ANY>``
+
+Vore el calendari del mes passat, actual i anterior
+``cal 3``
+
 ## Històric
 
 Vore els últims comandos escrits
