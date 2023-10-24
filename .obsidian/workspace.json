@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Arxius i Directoris.md",
+                "file": "Linux/Comandos de la terminal de Linux.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rm      ",
+                "query": "cut",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Arxius i Directoris.md",
+                "file": "Linux/Comandos de la terminal de Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Arxius i Directoris.md",
+                "file": "Linux/Comandos de la terminal de Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Arxius i Directoris.md"
+                "file": "Linux/Comandos de la terminal de Linux.md"
               }
             }
           }
@@ -164,11 +164,11 @@
   },
   "active": "bb9e91af776c3f74",
   "lastOpenFiles": [
-    "Linux/Comandos de la terminal de Linux.md",
+    "Linux/Sistema d'arxius de Linux.md",
     "Linux/Arxius i Directoris.md",
+    "Linux/Comandos de la terminal de Linux.md",
     "Xarxes/Terminologia.md",
     "Xarxes",
-    "Linux/Sistema d'arxius de Linux.md",
     "Linux",
     "Imatges/FHS_Linux.png",
     "Imatges/Encapsulació.png",

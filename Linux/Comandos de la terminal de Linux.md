@@ -143,13 +143,51 @@ HISTCONTROL=ignoreboth # Açò farà que no guarde res amb espais en blanc
 Afegir un *timestamp* als comandos del històric
 ``echo 'HISTTIMEFORMAT="%d/%m/%y %T "' >> .bashrc``
 
+## Pipes
+
+Combinació de dos o més comandos
+
+```bash
+ls -ls | head
+ls -ls | head -n 10 | tail -n 1
+```
+
+## Redirecció
+
+Fer un comando i guardar a un arxiu
+```
+<COMANDO> > <ARXIU>
+ls -ls > llistat.txt
+```
+
+Fer un comando, guardar a un arxiu, i mostra per pantalla
+```
+<COMANDO> | tee <ARXIU>
+ls -ls | tee llistat.txt
+```
+
+Fer un comando, afegeix a un arxiu, i mostra per pantalla
+```
+<COMANDO> | tee -a <ARXIU>
+ls -ls | tee -a llistat.txt
+```
+
+Fer un comando i afegint el text a un arxiu
+``<COMANDO> >> <ARXIU>``
+
+Guarda els missatges d'error
+``<COMANDO> 2> <ARXIU>``
+
+Mostra els missatges d'error i èxit
+``<COMANDO> 2>&1 <ARXIU>``
+
 ## Sistema
 
 Mostra l'espai disponible en els discs durs
 ``df``
 
 Mostra informació del sistema
-```
+```bash
 uname
 uname -r
 uname -v
@@ -171,6 +209,15 @@ Cerca arxius amb el següent nom
 Cerca directoris amb el següent nom
 ``find / -type -d -name <HOME> 2>/dev/null``
 
+## Tallar
+
+Exemples
+```bash
+cut /etc/passwd | cut -d ":" -f1 
+":" delimita el patró de separació o tall
+-f1 indica el camp que volem agafar
+```
+
 ## Text
 
 Fes un print del text
@@ -179,6 +226,8 @@ Fes un print del text
 Fes un print d'un arxiu
 ``cat <ARXIU>``
 
+Compta quantes línies, paraules i caràcters hi ha a un arxiu
+``wc <ARXIU>``
 ## Xarxes
 
 Mostrar la configuració de la interfície de xarxes
