@@ -162,6 +162,9 @@ Vore qui és l'actual usuari
 Vore qui és l'actual usuari amb més informació
 ``who``
 
+Vore l'usuari actual i informació de grups
+``id``
+
 Cerca arxius amb el següent nom
 ``find / -type -f -name <NOM_ARXIU> 2>/dev/null``
 
