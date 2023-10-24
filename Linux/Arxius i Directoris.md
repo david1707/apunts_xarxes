@@ -6,9 +6,6 @@
 Crea un arxiu
 ``touch <NOM_ARXIU>``
 
-Elimina un arxiu
-``rm <NOM_ARXIU>``
-
 Descarrega un arxiu
 ``wget <URL>``
 
@@ -55,8 +52,61 @@ Monitorar canvis en un directori cada 3 segons
 Crea un directori
 ``mkdir <NOM_DIRECTORI>``
 
+Crear subdirectoris
+``mkdir -p <NOM_DIRECTORI_1>/<NOM_DIRECTORI_2>/<NOM_DIRECTORI_N>``
+
+## Copiar arxius i directoris
+
+Copiar un arxiu
+``cp <NOM_ARXIU> <NOM_NOU_ARXIU>``
+
+Copiar un arxiu, mantenint els permisos, propietari, etc.
+``cp -p <NOM_ARXIU> <NOM_NOU_ARXIU>``
+
+Copiar arxius i directoris de forma recursiva
+``cp -r <DIRECTORI> <DIRECTORI_NOU> ``
+
+## Elimina arxius i directoris
+
+Elimina un arxiu
+``rm <NOM_ARXIU>``
+
+Elimina un arxiu amb prompt
+``rm -i <NOM_ARXIU>``
+
+Elimina un arxiu, responen "Yes" a cada confirmació
+``rm -f <NOM_ARXIU>``
+
+Elimina un arxiu amb verbositat
+``rm -v <NOM_ARXIU>``
+
 Elimina un directori
 ``rm -r <NOM_DIRECTORI>``
+
+**Tot i diguem que rm "elimina" els arxius, el que fa realment és marcar eixe espai en disc com "disponible". No elimina els arxius, simplement els desenllaça**
+
+Elimina realment un arxiu:
+``shred -vu -n 100 <ARXIU>``
+
+## Moure arxius i directoris
+
+Moure un arxiu/directori
+``mv <ARXIU/DIRECTORI> <NOU_ARXIU/NOU_DIRECTORI>``
+
+Moure diversos arxius
+``mv <ARXIU_1> <ARXIU_2> <ARXIU_3><NOU_DIRECTORI>``
+
+Moure tots els arxius amb una mateixa extensió
+``mv *.txt <DIRECTORI>``
+
+Moure arxius i pregunta abans de sobre-escriure
+``mv -i <ARXIU> <DIRECTORI>``
+
+Moure arxius i ignora preguntar sobre sobre-escriure (no ho fa)
+``mv -n <ARXIU> <DIRECTORI>``
+
+Moure arxius només quan l'arxiu origen és més nou que la destinació
+``mv -u <ARXIU> <DIRECTORI>``
 
 ## Navegació
 
