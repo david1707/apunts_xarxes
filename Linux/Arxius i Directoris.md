@@ -131,6 +131,9 @@ ls <RUTA> <RUTA>
 Mostrar la distribució de carpetes de dalt a baix
 ``tree``
 
+Paregut a tree:
+``ls -RF``
+
 Mostrar la ruta d'un comando
 ``which <COMANDO>``
 

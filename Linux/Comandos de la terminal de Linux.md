@@ -92,6 +92,22 @@ Vore el calendari d'un mes en particular
 Vore el calendari del mes passat, actual i anterior
 ``cal 3``
 
+## Grep
+
+Cerca d'un text a un arxiu
+``cat <ARXIU> | grep <TEXT_A_CERCAR>``
+##### Opcions
+
+```
+-n      # Mostra el número de línia
+-i      # Case insensitive
+-v      # Invertir la cerca
+-w      # Cerca la paraula completa
+-a      # Cerca en arxius binaris
+-R      # Mostra en el directori de forma recorrent
+-c      # Mostra només el número de trobats
+```
+
 ## Històric
 
 Vore els últims comandos escrits
@@ -202,12 +218,6 @@ Vore qui és l'actual usuari amb més informació
 
 Vore l'usuari actual i informació de grups
 ``id``
-
-Cerca arxius amb el següent nom
-``find / -type -f -name <NOM_ARXIU> 2>/dev/null``
-
-Cerca directoris amb el següent nom
-``find / -type -d -name <HOME> 2>/dev/null``
 
 ## Tallar
 
