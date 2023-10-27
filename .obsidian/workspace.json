@@ -4,37 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b46e328d88074d3b",
+        "id": "5a71cd73b1494d1f",
         "type": "tabs",
         "children": [
           {
-            "id": "48da0ffac66fa8f8",
+            "id": "889d3a1d08d12319",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Linux/Comandos de la terminal de Linux.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "62b5374174540f97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/VIM.md",
-                "mode": "source",
-                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c7c260538e3235f0",
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/VIM.md",
+                "file": "Linux/Comandos de la terminal de Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/VIM.md",
+                "file": "Linux/Comandos de la terminal de Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/VIM.md"
+                "file": "Linux/Comandos de la terminal de Linux.md"
               }
             }
           }
@@ -161,11 +147,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "62b5374174540f97",
+  "active": "889d3a1d08d12319",
   "lastOpenFiles": [
-    "Linux/Cercador.md",
     "Linux/VIM.md",
     "Linux/Comandos de la terminal de Linux.md",
+    "Linux/Cercador.md",
     "Linux/Sistema d'arxius de Linux.md",
     "Linux/Arxius i Directoris.md",
     "Xarxes/Terminologia.md",
