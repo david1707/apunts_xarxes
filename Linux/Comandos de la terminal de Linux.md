@@ -78,6 +78,44 @@ type rm = és un arxiu
 type cd = és un comando o shell builtin
 ```
 
+## Comparar arxius
+
+Compara dos arxius
+``cmp <ARXIU_1> <ARXIU_2>``
+
+Compara línia a línia
+``diff <ARXIU_1> <ARXIU_2>``
+
+Compara línia a línia en dues columnes
+``diff -y <ARXIU_1> <ARXIU_2>``
+
+Comparar hashes
+``sha256sum <ARXIU_1> <ARXIU_2>
+
+
+## Comprimir i arxivar arxius
+
+Arxiva i comprimeix amb tar
+``sudo tar -czvf <NOM>.tar.gz <DIRECTORI>``
+
+Arxiva i comprimeix més, però més lent
+``sudo tar -cjvf <NOM>.tar.bz2 <DIRECTORI>``
+
+Arxiva i comprimeix multiples carpetes i arxius
+``sudo tar -czvf <NOM>.tar.gz <DIRECTORI_1> <ARXIU_1>``
+
+Extraure
+``tar -xzvf/-xjvf <ARXIU>``
+
+Mostra els arxius dins de la compressió
+``tar -tf <ARXIU>``
+
+Més opcions
+```
+--exclude='.mkv' --exclude='.avi'   # Exclueix aquest tipus d'arxius
+-C <DIRECTORI>                      # Especifica la carpeta d'extracció
+```
+
 ## Datetime
 
 Vore el calendari d'aquest mes
@@ -158,6 +196,20 @@ HISTCONTROL=ignoreboth # Açò farà que no guarde res amb espais en blanc
 
 Afegir un *timestamp* als comandos del històric
 ``echo 'HISTTIMEFORMAT="%d/%m/%y %T "' >> .bashrc``
+
+## Inode
+
+Enllaçar 2 arxius:
+``ln <ARXIU_1> <ARXIU_2>``
+
+Llistar arxius amb el inode:
+``ls -n``
+
+Cercar tots els arxius amb el mateix inode
+``find / -inum <INODE>``
+
+Crear un symlink (o accés directe)
+``ln -s <ARXIU_A_ENLLAÇAR> <NOM_ACCÉS_DIRECTE>``
 
 ## Pipes
 
