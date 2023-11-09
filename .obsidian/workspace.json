@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Gestió de comptes.md",
+                "file": "Linux/Gestió de processos.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c7c260538e3235f0",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Gestió de comptes.md",
+                "file": "Linux/Gestió de processos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Gestió de comptes.md",
+                "file": "Linux/Gestió de processos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Gestió de comptes.md"
+                "file": "Linux/Gestió de processos.md"
               }
             }
           }
@@ -149,6 +148,8 @@
   },
   "active": "70f1b9b630cde2dc",
   "lastOpenFiles": [
+    "Linux/Permisos d'arxiu.md",
+    "Linux/Gestió de processos.md",
     "Linux/VIM.md",
     "Linux/Gestió de comptes.md",
     "Linux/Cercador.md",
