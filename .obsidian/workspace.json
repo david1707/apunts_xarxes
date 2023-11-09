@@ -10,13 +10,15 @@
           {
             "id": "70f1b9b630cde2dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Linux/Gestió de processos.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ]
