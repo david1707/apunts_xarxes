@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "634518354b346388",
+        "id": "0f845aa041f700ac",
         "type": "tabs",
         "children": [
           {
-            "id": "70f1b9b630cde2dc",
+            "id": "edc5b7c3946fcb81",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Gestió de processos.md",
+                "file": "Linux/Gestió de xarxes.md",
                 "mode": "source",
                 "source": false
               },
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Gestió de processos.md",
+                "file": "Linux/Gestió de xarxes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Gestió de processos.md",
+                "file": "Linux/Gestió de xarxes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Gestió de processos.md"
+                "file": "Linux/Gestió de xarxes.md"
               }
             }
           }
@@ -148,10 +148,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "70f1b9b630cde2dc",
+  "active": "edc5b7c3946fcb81",
   "lastOpenFiles": [
-    "Linux/Permisos d'arxiu.md",
+    "Linux/Gestió de xarxes.md",
     "Linux/Gestió de processos.md",
+    "Linux/Permisos d'arxiu.md",
     "Linux/VIM.md",
     "Linux/Gestió de comptes.md",
     "Linux/Cercador.md",
